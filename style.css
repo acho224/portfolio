@@ -1,0 +1,40 @@
+header {
+  text-align: center;
+  color: white;
+}
+body {
+  background: url("images/palm3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 90px;
+  font-family: arial;
+  color: white;
+  text-shadow: black 7px 7px 7px;
+}
+li {
+  display: inline;
+  padding: 0px 22px 0px 22px;
+  color: white;
+  font-size: 30px;
+}
+a {
+  color: white;
+  text-shadow: black 2px 1px 4px;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+@media (max-width: 600px){
+  li {
+    display: block;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+}
