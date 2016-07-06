@@ -1,6 +1,7 @@
 header {
   text-align: center;
   color: white;
+  margin-bottom: 100px;
 }
 body {
   background: url("images/palm3.jpg");
@@ -9,7 +10,7 @@ body {
   background-repeat: no-repeat;
 }
 h1 {
-  font-size: 90px;
+  font-size: 65px;
   font-family: arial;
   color: white;
   text-shadow: black 7px 7px 7px;
@@ -29,6 +30,16 @@ img {
   border: 7px solid white;
   border-radius: 20px;
 }
+#project-info {
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid white;
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgba(250,250,250,.8);
+  padding: 10px 20px;
+}
+
 @media (max-width: 600px){
   li {
     display: block;
@@ -38,3 +49,4 @@ img {
     font-size: 45px;
   }
 }
+
